@@ -9,5 +9,6 @@ public class AreaOfCircle {
         double circumferanceOfaCircle = 2*Math.PI*radius;
         System.out.println(areaOfaCircle);
         System.out.println(circumferanceOfaCircle);
+        sc.close();
     }
 }
