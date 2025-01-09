@@ -8,7 +8,7 @@ public static void main(String[] args) {
     System.out.println("Enter a String");
     String str = sc.nextLine();
     int length = 0;
-    for(char c : str.toCharArray()){
+    for(@SuppressWarnings("unused") char c : str.toCharArray()){
         length++;
     }
     System.out.println("Length is " + length);
